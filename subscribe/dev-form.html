@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="dev-form-css.css">
+    <title>practice chapter 1</title>
+<body>
+<div>
+</div>
+<div class="div1" id="form1">
+  <div class="div2">
+<form id="formcss" method="POST" action="dev-form.php">
+ <label for="fname">First Name </label>
+<input autofocus id="fname" type="text" name="firstname" placeholder="First Name" maxlength="20" required> <br>
+ <label for="lname">Last Name </label>
+<input id="lname" type="text" name="lastname" placeholder="Last Name" maxlength="20" required> <br>
+ <label id="gend" for="gend"> Gender </label>
+ <select  style="border-radius: 5px;" id="gend"  name="gender"  size="1" required>          
+              <option disabled selected>Your Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+           </select> <br> 
+           <label id="uname" for="uname">User Name  </label>
+            <input id="uname" type="text" name="username" placeholder="User Name" maxlength="20" required><br>
+            <label id="pword">Password  </label> 
+            <input id="pword" type="password" name="password" placeholder="Password" maxlength="80" required><br>
+  <input type="submit"; name="submit"; value="Sign Up">
+</form>
+</div>
+</div>
+</body>
+</head>
+</html>
